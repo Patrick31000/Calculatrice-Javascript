@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html" charset="utf-8" />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <title>Pat's Calculator</title>
+  </head>
+
+  <body>
+    <div id="container">
+      <h1>Pat's Calculator</h1>
+      <div id="Calculatrice">
+        <div id="header">
+          <input type="text" id="number" value="" disabled="disabled">
+          <div id="body">
+            <input id="sept" value="7" onclick="sept();" class="button">
+            <input id="huit" value="8" onclick="huit();" class="button">
+            <input id="neuf" value="9" onclick="neuf();" class="button">
+            <input id="divise" value="/" onclick="divise();" class="button">
+            <input id ="quatre" value="4" onclick="quatre();" class="button">
+            <input id="cinq" value="5" onclick="cinq();" class="button">
+            <input id="six" value="6" onclick="six();" class="button">
+            <input id="multiplie" value="*" onclick="multiplie();" class="button">
+            <input id="un" value="1" onclick="un();" class="button">
+            <input id="deux" value="2" onclick="deux();" class="button">
+            <input id="trois" value="3" onclick="trois();" class="button">
+            <input id="moins" value="-" onclick="moins();" class="button">
+            <input id="zero" value="0" onclick="zero();" class="button">
+            <input id="efface" value="Eff" onclick="efface();" class="button">
+            <input id="egal" value="=" onclick="egal();" class="button">
+            <input id="plus" value="+" onclick="plus();" class="button">
+          </div>
+        </div>
+      </div>
+    </div>
+
+<script type="text/javascript">
+
+  function zero(){
+    var num = document.getElementById("zero").value;
+    var aff = document.getElementById("number").value;
+    document.getElementById("number").value = aff + num;
+
+  }
+
+  function un(){
+    var num = document.getElementById("un").value;
+    var aff = document.getElementById("number").value;
+    document.getElementById("number").value = aff + num;
+
+  }
+
+  function deux(){
+    var num = document.getElementById("deux").value;
+    var aff = document.getElementById("number").value;
+    document.getElementById("number").value = aff + num;
+
+  }
+
+  function trois(){
+    var num = document.getElementById("trois").value;
+    var aff = document.getElementById("number").value;
+    document.getElementById("number").value = aff + num;
+
+  }
+
+  function quatre(){
+    var num = document.getElementById("quatre").value;
+    var aff = document.getElementById("number").value;
+    document.getElementById("number").value = aff + num;
+
+  }
+
+  function cinq(){
+    var num = document.getElementById("cinq").value;
+    var aff = document.getElementById("number").value;
+    document.getElementById("number").value = aff + num;
+
+  }
+
+  function six(){
+    var num = document.getElementById("six").value;
+    var aff = document.getElementById("number").value;
+    document.getElementById("number").value = aff + num;
+
+  }
+
+  function sept(){
+    var num = document.getElementById("sept").value;
+    var aff = document.getElementById("number").value;
+    document.getElementById("number").value = aff + num;
+
+  }
+
+  function huit(){
+    var num = document.getElementById("huit").value;
+    var aff = document.getElementById("number").value;
+    document.getElementById("number").value = aff + num;
+
+  }
+
+  function neuf(){
+    var num = document.getElementById("neuf").value;
+    var aff = document.getElementById("number").value;
+    document.getElementById("number").value = aff + num;
+
+  }
+
+  function plus(){
+    var op = document.getElementById("plus").value;
+    var aff = document.getElementById("number").value;
+    document.getElementById("number").value = aff + op;
+  }
+
+  function moins(){
+    var op = document.getElementById("moins").value;
+    var aff = document.getElementById("number").value;
+    document.getElementById("number").value = aff + op;
+  }
+
+  function multiplie(){
+    var op = document.getElementById("multiplie").value;
+    var aff = document.getElementById("number").value;
+    document.getElementById("number").value = aff + op;
+  }
+
+  function divise(){
+    var op = document.getElementById("divise").value;
+    var aff = document.getElementById("number").value;
+    document.getElementById("number").value = aff + op;
+  }
+
+  function egal(){
+    var result = document.getElementById("number").value;
+    var total = eval(result);
+    document.getElementById("number").value = total;
+
+  }
+
+  function efface(){
+    document.getElementById("number").value = "";
+
+  }
+
+
+
+</script>
+  </body>
+</html>

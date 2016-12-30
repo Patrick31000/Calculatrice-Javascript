@@ -1,0 +1,65 @@
+.body{
+  font-family: 'OpenSans', sans-serif;
+}
+
+#container{
+  font-size: 20px;
+  margin: 128px;
+  width: 768px;
+}
+
+h1{
+  text-align: center;
+  color: #333;
+}
+
+#number{
+  border-radius: 6px;
+}
+
+#Calculatrice{
+  margin-left: 240px;
+  background-color: #454545;
+  border: 1px solid black;
+  width: 279px;
+  border-radius: 6px;
+}
+
+
+input#number{
+  text-align: right;
+  font-size: 20px;
+  padding: 5px;
+  margin-left: 5px;
+  margin-top: 5px;
+}
+
+#body{
+  padding-left: 7px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-family: 'OpenSans', sans-serif;
+}
+
+#neuf, #huit, #sept, #six, #cinq, #quatre, #trois, #deux, #un, #multiplie, #divise, #plus, #moins, #egal, #efface, #zero {
+  cursor: default;
+  text-align: center;
+  padding: 7px 12px;
+  margin-bottom: 12px;
+  font-size: 20px;
+  text-shadow: 0 -1px 1px #000;
+  display: inline-block;
+  color: white;
+  border: 1px solid black;
+  width: 34px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, .8);
+  background: linear-gradient(#5F5F5F 0%, #404040 100%)
+}
+
+#neuf:hover, #huit:hover, #sept:hover, #six:hover, #cinq:hover, #quatre:hover, #trois:hover, #deux:hover, #un:hover, #multiplie:hover, #divise:hover, #plus:hover, #moins:hover, #egal:hover, #efface:hover, #zero:hover{
+  background: linear-gradient(#4547c9 0%, #212276 100%)
+}
+
+#neuf:active, #huit:active, #sept:active, #six:active, #cinq:active, #quatre:active, #trois:active, #deux:active, #un:active, #multiplie:active, #divise:active, #plus:active, #moins:active, #egal:active, #efface:active, #zero:active{
+  box-shadow: none;
+}
